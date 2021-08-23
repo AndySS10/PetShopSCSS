@@ -1,0 +1,408 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body header {
+  width: 100%;
+}
+
+body header #Menu1 {
+  width: 100%;
+  height: 1.8vw;
+  background-color: black;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 2vw;
+  padding-right: 3vw;
+  font-size: 0.8vw;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body header #Menu1 #grandes {
+  width: 80%;
+}
+
+body header #Menu1 #menuregional {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 10%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body header #menu2 {
+  width: 100%;
+  height: 5vw;
+  background-color: #F0A83E;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 3vw;
+  padding-right: 2vw;
+  font-size: 1vw;
+}
+
+body header #menu2 img {
+  width: 15%;
+}
+
+body header #menu2 #menuprincipal {
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body header #menu2 #bars {
+  display: none;
+}
+
+body #pagina {
+  width: 100%;
+}
+
+body #pagina .cuerpo .fondo1 {
+  background-image: url(../img/Fondo.png);
+  background-size: 100%;
+  width: 100%;
+  height: 39.5vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  color: #3C2313;
+}
+
+body #pagina .cuerpo .fondo1 #titulo {
+  width: 35%;
+  height: 4vw;
+  border-radius: 0.2em;
+  padding-top: 0.1%;
+  text-align: center;
+  font-size: 2.8vw;
+  background-color: white;
+  margin-right: 1vw;
+  margin-bottom: 0.8vw;
+}
+
+body #pagina .cuerpo .fondo1 .centronegrita {
+  font-size: 1.1vw;
+  text-align: center;
+  margin-right: 11.5vw;
+  margin-bottom: 0.8vw;
+}
+
+body #pagina .cuerpo .fondo1 .centro {
+  text-align: center;
+  color: white;
+  border-radius: 12px;
+  background-color: #F0A83E;
+  padding-top: 0.8%;
+  width: 12%;
+  height: 3vw;
+  font-size: 1.2vw;
+  margin-right: 11.5vw;
+}
+
+body #pagina .cuerpo .bodyproductos {
+  width: 100%;
+  height: 20vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.2vw;
+  color: grey;
+}
+
+body #pagina .cuerpo .bodyproductos .patita {
+  width: 6%;
+}
+
+body #pagina .cuerpo .bodyproductos .negritatitulo {
+  font-weight: bold;
+  font-size: 4vw;
+  color: #3C2313;
+}
+
+body #pagina .cuerpo .productos1 {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 30vw;
+  text-align: center;
+  font-size: 1vw;
+}
+
+body #pagina .cuerpo .productos1 .subproductos {
+  width: 22%;
+  height: 85%;
+  background-color: #FBFAF6;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  color: #3C2313;
+}
+
+body #pagina .cuerpo .productos1 .subproductos .img {
+  width: 100%;
+}
+
+body #pagina .cuerpo .contactanos {
+  width: 100%;
+  height: 22vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body #pagina .cuerpo .contactanos .titulocontactanos {
+  font-size: 2vw;
+  color: #3C2313;
+  font-weight: bold;
+}
+
+body #pagina .cuerpo .contactanos .fill {
+  color: white;
+  background-color: #3C2313;
+  width: 25%;
+  height: 2vw;
+  margin-top: 1vw;
+  border-radius: 12px;
+  padding-left: 1vw;
+  font-size: 0.5vw;
+  border: none;
+}
+
+body #pagina .cuerpo .contactanos .botones {
+  width: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 3vw;
+  padding-bottom: 2vw;
+}
+
+body #pagina .cuerpo .contactanos .botones .reset {
+  width: 25%;
+  height: 2vw;
+  background-color: grey;
+  color: white;
+  border-radius: 12px;
+  text-align: center;
+  margin-right: 0.5vw;
+  margin-left: 0.5vw;
+  font-size: 1vw;
+  border: none;
+}
+
+body #pagina .cuerpo .contactanos .botones .send {
+  width: 25%;
+  height: 2vw;
+  background-color: #F0A83E;
+  color: white;
+  border-radius: 12px;
+  text-align: center;
+  margin-right: 0.5vw;
+  margin-left: 0.5vw;
+  font-size: 1vw;
+  border: none;
+}
+
+body #pagina .cuerpo .barrasub {
+  width: 100%;
+  height: 3.5vw;
+  background-color: #F0A83E;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body #pagina .cuerpo .barrasub .subnovedades {
+  color: white;
+  font-size: 1.2vw;
+  padding-left: 1vw;
+  padding-top: 0.8vw;
+  width: 50%;
+  height: 100%;
+}
+
+body #pagina .cuerpo .barrasub .subnovedades img {
+  width: 5%;
+}
+
+body #pagina .cuerpo .barrasub .ingresamail {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 2.5vw;
+}
+
+body #pagina .cuerpo .barrasub .ingresamail .fillmail {
+  background-color: white;
+  color: grey;
+  width: 60%;
+  height: 2.3vw;
+  font-size: 0.8vw;
+  padding-top: 0.7vw;
+  padding-left: 0.8vw;
+  margin: 0.5vw;
+  border-radius: 12px;
+}
+
+body #pagina .cuerpo .barrasub .ingresamail .subbutton {
+  background-color: #3C2313;
+  color: white;
+  width: 12%;
+  height: 2.1vw;
+  font-size: 0.8vw;
+  padding-top: 0.6vw;
+  margin: 0.5vw;
+  border-radius: 12px;
+  text-align: center;
+}
+
+body .Contactos {
+  width: 100%;
+  height: 15vw;
+  background-color: #3C2313;
+  color: white;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-right: 5vw;
+  padding-left: 3vw;
+}
+
+body .Contactos .contactos1 {
+  width: 50%;
+}
+
+body .Contactos .contactos1 .contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 1vw;
+}
+
+body .Contactos .contactos1 .contact .iconos {
+  width: 8%;
+}
+
+body .Contactos .contactos1 .contact div {
+  padding-top: 0.3vw;
+  padding-left: 1vw;
+  color: grey;
+  font-size: 0.5vw;
+}
+
+body .Contactos .contactos1 .contact .titulocontac {
+  font-size: 1vw;
+  color: white;
+}
+
+body .Contactos .contactos2 {
+  width: 50%;
+  text-align: end;
+}
+
+body .Contactos .contactos2 .logomarron {
+  width: 25%;
+}
+
+body #Derechos {
+  width: 100%;
+  height: 2vw;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-top: 0.5vw;
+  font-size: 1vw;
+}
+/*# sourceMappingURL=style.css.map */
